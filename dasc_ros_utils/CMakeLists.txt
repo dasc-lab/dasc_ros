@@ -61,6 +61,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
   scripts/publish_lab_poly.py
+  scripts/publish_setpoint.py
   DESTINATION lib/${PROJECT_NAME}
   )
 
